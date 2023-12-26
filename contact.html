@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARI-LAGBE? - বাংলাদেশের সর্ববৃহৎ রেন্ট-এ-কার সেবা।</title>
+    <!-- ----- Website Icon ------ -->
+    <link rel="website icon" type="png" href="./images/website_icon.png">
+    <!-- ----- Bootstrap CDN ------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ----- Fontawasome CSS ------ -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- ----- Slick Slider CSS ------ -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- ----- Custom CSS ------ -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ----- Responsive CSS --- -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <div class="top_button">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+    <!-- =========== Menubar Part Start ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark menubar" id="menubar">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo1.png" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu_item">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./Packages.html">Packages</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./contact.html">Contact</a></li>
+          </ul>
+          <div id="openModalBtn" class="get_button">
+            <a href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+    <!-- =========== Menubar Part End ========== -->
+
+    <!-- The Modal -->
+<div id="signupModal" class="modal">
+  <span class="close" id="closeModalBtn"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #ff5573;"></i></span>
+  <div class="modal-content">
+      <div class="forms">
+        <div class="form-wrapper is-active">
+          <button type="button" class="switcher switcher-login">
+            Login
+            <span class="underline"></span>
+          </button>
+          <form class="form form-login">
+            <fieldset>
+              <div class="input-group">
+                <label for="login-email">Email</label>
+                <input id="login-email" placeholder="Enter your Email" type="email" required>
+              </div>
+              <div class="input-group">
+                <label for="login-password">Password</label>
+                <input id="login-password" placeholder="Enter your Password" type="password" required>
+              </div>
+            </fieldset>
+            <button type="submit" id="login" class="login_btn">Login</button>
+          </form>
+        </div>
+        <div class="form-wrapper">
+          <button type="button" class="switcher switcher-signup">
+            Sign Up
+            <span class="underline"></span>
+          </button>
+          <form class="form form-signup signUp">
+            <fieldset>
+              <div class="input-group">
+                <label for="signup-username">Username</label>
+                <input id="username" type="username" placeholder="Enter your Username" required>
+              </div>
+              <div class="input-group">
+                <label for="signup-email">Email</label>
+                <input id="email" type="email" placeholder="Enter your Email" required>
+              </div>
+              <div class="input-group">
+                <label for="signup-password">Password</label>
+                <input id="signup-password" type="password" placeholder="Enter your Password" required>
+              </div>
+            </fieldset>
+            <button type="submit" id="signUp" class="btn-signup">Continue</button>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+
+<!-- ============== Contact Part Start =================== -->
+<section id="contacts">
+  <div class="container">
+  <div class="headline">
+    <h1>Contact Information</h1>
+    <p>We're here to help. Reach out to us for any inquiries.</p>
+    </div>
+    <div class="col-12">
+      <div class="row3">
+        <div class="contacts_text col-4 col-sm-12">
+        <i class="fa-solid fa-envelope fa-fade fa-xl" style="color: #ffffff;"></i>
+        <h3>Email</h3>
+        <p>Send us an email today!</p>
+        <a href="#">support@garilagbebd.com</a>
+        <i class="fa-solid fa-phone fa-fade fa-xl " style="color: #ffffff;"></i>
+        <h3>Phone</h3>
+        <p>Give us a call now!</p>
+        <a href="#">+880-696969</a>
+        <i class="fa-solid fa-location-dot fa-fade fa-xl" style="color: #ffffff;"></i>
+        <h3>Office</h3>
+        <p>123 Sample St, Sydney NSW 2000 AU</p>
+        <a href="#">Get Direction ></a>
+        </div>
+        <div class="google_map col-8 col-sm-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14707.577706645261!2d89.52040225267415!3d22.843395108869387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9a9068161927%3A0xac8fb86be652ad48!2sMangrove%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sbd!4v1703158201913!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+</section>
+<!-- ============== Contact Part Start =================== -->
+
+<!-- ============== CRM Part Start =================== -->
+<section id="crm1">
+  <div class="container">
+    <div class="col-lg-12">
+      <div class="row2">
+        <div class="imga col-lg-4">
+          <div class="imga_slider">
+            <div class="imga_item">
+                  <img src="./images/contact1.png" alt="Slider Image">
+                </div>
+              <div class="imga_item">
+                  <img src="./images/contact2.png" alt="Slider Image">
+              </div>
+              <div class="imga_item">
+                  <img src="./images/contact3.png" alt="Slider Image">
+              </div>
+              <div class="imga_item">
+                  <img src="./images/contact4.png" alt="Slider Image">
+              </div>
+            </div>
+              </div>
+        <div class="coltext col-lg-8">
+            <div><h1>We Care About Your <span> Comfort & Safety</span></h1></div>
+            <div><h5>ONLY THE BEST</h5></div>
+            <div class="crmbtn"><a href="./emailus.html">EMAIL US</a></div>
+            <p>Feel free to contact us or visit us in person.  
+              <br>
+            We would gladly help you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========== Service Part Start ========== -->
+    <section id="downloads">
+      <div class="container">
+        <div class="row">
+          <div class="download_text col-lg-8">
+            <h3>Can't find your desired service?</h3>
+            <h4> Let us know, call</h4>
+            <a href="tel:+880-696969"><i class="fa fa-phone"></i>696969</a></div>
+
+        <div class="service col-lg-4">
+          <img src="./images/service-request.png" alt="Call Girl Logo">
+        </div>
+        </div>
+      </div>
+    </section>
+        <!-- =========== Service Part End ========== -->
+
+
+    <!-- =========== Footer Part Start ========== -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="footer_left">
+          <div class="footer_logo">
+            <img src="./images/logo1.png" alt="Brand Logo">
+          </div>
+          <div class="footer_text">
+            <p>In publishing and graphic design, Lorem ipsum is a placeholder of text commonly used to the and demonstrate
+              <span>support@garilagbebd.com</span>
+            </p>
+          </div>
+          <div class="footer_social_icon">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="footer_menu">
+          <h4>Site Map</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copywrite">
+    <div class="container">
+      <div class="copywrite_content">
+        <div class="copywrite_text">
+          <h6>Copyright & All Right Reserved | <a href="https://www.facebook.com/infinyte.sajib">Faisal Iqbal Sajib</a></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- =========== Footer Part End ========== -->
+    <!-- =========== JS Part Start ========== -->
+    <!-- ---------- JQuery -------- -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <!-- ---------- Bootstrap CDN -------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- ---------- Slick Slider -------- -->
+    <script src="./js/slick.js"></script>
+    <!-- ---------- Counter CDN -------- -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- ---------- Counter -------- -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <!-- ---------- Custom JS -------- -->
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('BwHESMrAQPH9ydy8B');
+        })();
+    </script>
+<script>
+$('#myForm').on('submit', function(event) {
+    event.preventDefault(); // prevent reload
+    
+    var formData = new FormData(this);
+    formData.append('service_id', 'service_wgaqxfs');
+    formData.append('template_id', 'myform_temp919k');
+    formData.append('user_id', 'BwHESMrAQPH9ydy8B');
+
+    $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
+        type: 'POST',
+        data: formData,
+        contentType: false, // auto-detection
+        processData: false // no need to parse formData to string
+    }).done(function() {
+        alert('Your mail is sent!');
+    }).fail(function(error) {
+        alert('Oops... ' + JSON.stringify(error));
+    });
+});
+    </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  // Get the modal and buttons
+  var modal = document.getElementById('signupModal');
+  var openModalBtn = document.getElementById('openModalBtn');
+  var closeModalBtn = document.getElementById('closeModalBtn');
+
+  // Open the modal
+  openModalBtn.addEventListener('click', function() {
+      modal.style.display = 'block';
+  });
+
+  // Close the modal
+  closeModalBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+  });
+
+  // Close the modal if clicked outside the modal content
+  window.addEventListener('click', function(event) {
+      if (event.target == modal) {
+          modal.style.display = 'none';
+      }
+  });
+
+  // Handle form submission (you can add your own logic here)
+  var signupForm = document.getElementById('signupForm');
+  signupForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      // Add your form submission logic here
+      console.log('Form submitted!');
+  });
+});
+</script>
+
+<script>
+  const switchers = [...document.querySelectorAll('.switcher')]
+
+switchers.forEach(item => {
+item.addEventListener('click', function() {
+  switchers.forEach(item => item.parentElement.classList.remove('is-active'))
+  this.parentElement.classList.add('is-active')
+})
+})
+
+</script>
+    <!-- =========== JS Part End ========== -->
+</body>
+</html>

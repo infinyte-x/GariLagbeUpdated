@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARI-LAGBE? - বাংলাদেশের সর্ববৃহৎ রেন্ট-এ-কার সেবা।</title>
+    <!-- ----- Website Icon ------ -->
+    <link rel="website icon" type="png" href="./images/website_icon.png">
+    <!-- ----- Bootstrap CDN ------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ----- Fontawasome CSS ------ -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- ----- Slick Slider CSS ------ -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- ----- Custom CSS ------ -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ----- Responsive CSS --- -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <div class="top_button">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+    <!-- =========== Menubar Part Start ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark menubar" id="menubar">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo1.png" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu_item">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./Packages.html">Packages</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./contact.html">Contact</a></li>
+          </ul>
+          <div id="openModalBtn" class="get_button">
+            <a href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+<!-- =========== Menubar Part End ========== -->
+
+<!-- The Modal -->
+<div id="signupModal" class="modal">
+  <span class="close" id="closeModalBtn"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #ff5573;"></i></span>
+  <div class="modal-content">
+      <div class="forms">
+        <div class="form-wrapper is-active">
+          <button type="button" class="switcher switcher-login">
+            Login
+            <span class="underline"></span>
+          </button>
+          <form class="form form-login">
+            <fieldset>
+              <div class="input-group">
+                <label for="login-email">Email</label>
+                <input id="login-email" placeholder="Enter your Email" type="email" required>
+              </div>
+              <div class="input-group">
+                <label for="login-password">Password</label>
+                <input id="login-password" placeholder="Enter your Password" type="password" required>
+              </div>
+            </fieldset>
+            <button type="submit" id="login" class="login_btn">Login</button>
+          </form>
+        </div>
+        <div class="form-wrapper">
+          <button type="button" class="switcher switcher-signup">
+            Sign Up
+            <span class="underline"></span>
+          </button>
+          <form class="form form-signup signUp">
+            <fieldset>
+              <div class="input-group">
+                <label for="signup-username">Username</label>
+                <input id="username" type="username" placeholder="Enter your Username" required>
+              </div>
+              <div class="input-group">
+                <label for="signup-email">Email</label>
+                <input id="email" type="email" placeholder="Enter your Email" required>
+              </div>
+              <div class="input-group">
+                <label for="signup-password">Password</label>
+                <input id="signup-password" type="password" placeholder="Enter your Password" required>
+              </div>
+            </fieldset>
+            <button type="submit" id="signUp" class="btn-signup">Continue</button>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+
+<!-- ===========Banner Part Start ========== -->
+<section id="banner1" class="background1">
+  <div class="container">
+    <div class="col-lg-12">
+      <div class="banner1_text">
+        <h1>Need to Rent a Luxury Car? </h1>
+        <h3>The most premium rent-a-car service in Bangladesh.</h3>
+        <h4>Save Money With Our Rental</h4>
+        <p>We are always there to reach you safely, comfortably and on time from Dhaka to any part of the country.</p>
+      </div>
+  </div>
+  </div>
+</section>
+<!-- =========== Banner Part End ========== -->
+
+<!-- ============ Car List ================ -->
+<section id="carlist">
+  <div class="container">
+    <div class="col-lg-12"></div>
+    <div class="title">AVAILABLE CARS</div>
+    <div class="detail">
+        <div class="image">
+            <img src="">
+        </div>
+        <div class="content">
+            <h1 class="name"></h1>
+            <div class="description"></div>
+            <div class="price"></div>
+            <div class="buttons">
+              <button>More Details</button>
+              <button>Book Now 
+                  <span>
+                      <svg class="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                      </svg>
+                  </span>
+              </button>
+          </div>
+        
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="smproducts">
+  <div class="container">
+    <div class="lists">
+      <div class="col-lg-12">
+        <h4> AVAILABLE CARS</h4>
+        <br>
+        <div class="listProduct"></div>
+        </div> 
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ Car List ================ -->
+    
+
+
+
+
+
+<!-- =========== Service Part Start ========== -->
+<section id="downloads">
+      <div class="container">
+        <div class="row">
+          <div class="download_text col-lg-8">
+            <h3>Can't find your desired service?</h3>
+            <h4> Let us know, call</h4>
+            <a href="tel:+880-696969"><i class="fa fa-phone"></i>696969</a></div>
+
+        <div class="service col-lg-4">
+          <img src="./images/service-request.png" alt="Call Girl Logo">
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Service Part End ========== -->
+
+
+
+    <!-- =========== Footer Part Start ========== -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="footer_left">
+          <div class="footer_logo">
+            <img src="./images/logo1.png" alt="Brand Logo">
+          </div>
+          <div class="footer_text">
+            <p>In publishing and graphic design, Lorem ipsum is a placeholder of text commonly used to the and demonstrate
+              <span>support@garilagbebd.com</span>
+            </p>
+          </div>
+          <div class="footer_social_icon">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="footer_menu">
+          <h4>Site Map</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copywrite">
+    <div class="container">
+      <div class="copywrite_content">
+        <div class="copywrite_text">
+          <h6>Copyright & All Right Reserved | <a href="www.facebook.com/infinyte.sajib">Faisal Iqbal Sajib</a></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- =========== Footer Part End ========== -->
+<script>
+      let product = null;
+            // get datas from file json
+            fetch('products.json')
+                .then(response => response.json())
+                .then(data => {
+                    products = data;
+                    showDetail();
+            })
+    
+            function showDetail(){
+        // remove datas default from HTML
+            let detail = document.querySelector('.detail');
+            let productId =  new URLSearchParams(window.location.search).get('id');
+            let thisProduct = products.filter(value => value.id == productId)[0];
+            // // //if there is no product with id = productId => return to home page
+            if(!thisProduct){
+                window.location.href = "/Packages.html?id=1";
+            }
+    
+            detail.querySelector('.image img').src = thisProduct.image;
+            detail.querySelector('.name').innerText = thisProduct.name;
+            detail.querySelector('.price').innerText = 'BDT ৳ ' + thisProduct.price + '/-';
+            detail.querySelector('.description').innerText = '' + thisProduct.description;
+        }
+</script>
+
+
+
+
+    <!-- =========== JS Part Start ========== -->
+    <!-- ---------- JQuery -------- -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <!-- ---------- Bootstrap CDN -------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- ---------- Slick Slider -------- -->
+    <script src="./js/slick.js"></script>
+    <!-- ---------- Counter CDN -------- -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- ---------- Counter -------- -->
+    <script src="./js/jquery.counterup.min.js"></script>
+    <!-- ---------- Custom JS -------- -->
+    <script src="./js/script.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      // Get the modal and buttons
+      var modal = document.getElementById('signupModal');
+      var openModalBtn = document.getElementById('openModalBtn');
+      var closeModalBtn = document.getElementById('closeModalBtn');
+    
+      // Open the modal
+      openModalBtn.addEventListener('click', function() {
+          modal.style.display = 'block';
+      });
+    
+      // Close the modal
+      closeModalBtn.addEventListener('click', function() {
+          modal.style.display = 'none';
+      });
+    
+      // Close the modal if clicked outside the modal content
+      window.addEventListener('click', function(event) {
+          if (event.target == modal) {
+              modal.style.display = 'none';
+          }
+      });
+    
+      // Handle form submission (you can add your own logic here)
+      var signupForm = document.getElementById('signupForm');
+      signupForm.addEventListener('submit', function(event) {
+          event.preventDefault();
+          // Add your form submission logic here
+          console.log('Form submitted!');
+      });
+    });
+    </script>
+    
+    <script>
+      const switchers = [...document.querySelectorAll('.switcher')]
+    
+    switchers.forEach(item => {
+    item.addEventListener('click', function() {
+      switchers.forEach(item => item.parentElement.classList.remove('is-active'))
+      this.parentElement.classList.add('is-active')
+    })
+    })
+    
+    </script>
+    <!-- =========== JS Part End ========== -->
+</body>
+</html>

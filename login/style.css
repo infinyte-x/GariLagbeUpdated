@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(login_banner.png);
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .logo{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+.container .logo img{
+    width: 80px;
+}
+
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.login_container .login {
+    padding: 40px;
+    max-width: 400px;
+    max-height: 550px;
+    background-color: #eaeaea88;
+    backdrop-filter: blur(30px);
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
+-moz-box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
+box-shadow: 5px 5px 30px 0px rgb(50, 50, 50);
+}
+
+.login_container .login .login_content h1{
+    color: #eaeaea;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.login_container .login .login_content .input-group{
+    padding: 10px;
+}
+
+.login_container .login .login_content .input-group input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    outline: none;
+    background-color: #eaeaea;
+    border: 0;
+    font-size: 18px;
+    color: #ff5573;
+}
+
+.login_container .login .login_content .signup_btn{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.login_container .login .login_content .signup_btn button{
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    background-color: #e50914;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.login_container .login .login_content .signup_btn{
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.login_container .login .login_content .signup_btn button{
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    background-color: #e50914;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login_container .login .login_content .remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #eaeaea;
+    font-weight: 400;
+
+}
+
+.login_container .login .login_content .remember input{
+    padding: 10px;
+}
+
+.login_container .login .login_content .remember a{
+    text-decoration: none;
+    color: #eaeaea;
+
+}
+
+.login_container .login .login_content .remember a:hover{
+    text-decoration: underline;
+    background-color: firebrick;
+}
+
+.login_container .login .login_content .others{
+    padding: 10px;
+    color: #00191f;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.login_container .login .login_content .others a{
+    text-decoration: none;
+        color: #eaeaea;
+
+}
+
+
+.login_container .login .login_content .others a:hover{
+    text-decoration: underline;
+}
+
+.login_container .login .login_content .content{
+    padding: 10px;
+    color: #8c8c8c;
+}
+
+.login_container .login .login_content .content a{
+    color: #0071eb;
+}
+
